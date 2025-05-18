@@ -1,0 +1,52 @@
+{
+  "header": {
+    "home": "Home",
+    "properties": "Properties",
+    "board": "Community",
+    "login": "Login",
+    "register": "Register",
+    "profile": "My Profile",
+    "favorites": "My Favorites",
+    "logout": "Logout",
+    "myProperties": "My Properties",
+    "adminDashboard": "Admin Dashboard"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2023 Rumos. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Not found",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back",
+    "confirm": "Confirm",
+    "required": "Required",
+    "optional": "Optional",
+    "errorFetchingProperties": "Error fetching properties",
+    "noResults": "No results found"
+  },
+  "cities": {
+    "seoul": "Seoul",
+    "busan": "Busan",
+    "incheon": "Incheon",
+    "daegu": "Daegu",
+    "daejeon": "Daejeon",
+    "gwangju": "Gwangju",
+    "ulsan": "Ulsan",
+    "sejong": "Sejong"
+  }
+}
