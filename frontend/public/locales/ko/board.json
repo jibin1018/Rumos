@@ -1,0 +1,43 @@
+{
+  "board": {
+    "title": "게시판",
+    "createPost": "글쓰기",
+    "categories": "카테고리",
+    "allCategories": "전체",
+    "search": "검색",
+    "noResults": "게시글이 없습니다",
+    "loading": "게시글을 불러오는 중입니다..."
+  },
+  "post": {
+    "title": "제목",
+    "content": "내용",
+    "category": "카테고리",
+    "submit": "등록",
+    "cancel": "취소",
+    "edit": "수정",
+    "delete": "삭제",
+    "deleteConfirm": "정말 삭제하시겠습니까?",
+    "createdAt": "작성일",
+    "author": "작성자",
+    "views": "조회수",
+    "comments": "댓글",
+    "writeComment": "댓글 작성",
+    "submitComment": "등록",
+    "emptyComment": "댓글을 입력해주세요",
+    "deleteCommentConfirm": "댓글을 삭제하시겠습니까?",
+    "editedAt": "수정됨",
+    "goToList": "목록으로"
+  },
+  "validation": {
+    "titleRequired": "제목을 입력해주세요",
+    "titleLength": "제목은 최대 100자까지 가능합니다",
+    "contentRequired": "내용을 입력해주세요",
+    "categoryRequired": "카테고리를 선택해주세요"
+  },
+  "categories": {
+    "General": "일반",
+    "Questions": "질문",
+    "Reviews": "후기",
+    "Tips": "팁"
+  }
+}
