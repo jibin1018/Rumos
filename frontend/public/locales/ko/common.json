@@ -1,0 +1,52 @@
+{
+  "header": {
+    "home": "홈",
+    "properties": "매물",
+    "board": "커뮤니티",
+    "login": "로그인",
+    "register": "회원가입",
+    "profile": "내 프로필",
+    "favorites": "찜 목록",
+    "logout": "로그아웃",
+    "myProperties": "내 매물",
+    "adminDashboard": "관리자 대시보드"
+  },
+  "footer": {
+    "aboutUs": "회사 소개",
+    "contactUs": "문의하기",
+    "termsOfService": "이용약관",
+    "privacyPolicy": "개인정보처리방침",
+    "copyright": "© 2023 Rumos. 모든 권리 보유."
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "notFound": "찾을 수 없음",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "수정",
+    "submit": "제출",
+    "search": "검색",
+    "filter": "필터",
+    "reset": "초기화",
+    "next": "다음",
+    "previous": "이전",
+    "back": "뒤로",
+    "confirm": "확인",
+    "required": "필수",
+    "optional": "선택사항",
+    "errorFetchingProperties": "매물을 불러오는 중 오류가 발생했습니다",
+    "noResults": "검색 결과가 없습니다"
+  },
+  "cities": {
+    "seoul": "서울",
+    "busan": "부산",
+    "incheon": "인천",
+    "daegu": "대구",
+    "daejeon": "대전",
+    "gwangju": "광주",
+    "ulsan": "울산",
+    "sejong": "세종"
+  }
+}
