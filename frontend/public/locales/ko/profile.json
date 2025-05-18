@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "title": "내 프로필",
+    "info": "기본 정보",
+    "username": "아이디",
+    "email": "이메일",
+    "phoneNumber": "전화번호",
+    "password": "비밀번호",
+    "updatePassword": "비밀번호 변경",
+    "currentPassword": "현재 비밀번호",
+    "newPassword": "새 비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "updateInfo": "정보 수정",
+    "updateSuccess": "프로필이 업데이트되었습니다",
+    "updateError": "프로필 업데이트에 실패했습니다"
+  },
+  "agent": {
+    "info": "중개사 정보",
+    "license": "사업자 등록증",
+    "companyName": "중개사무소 이름",
+    "officeAddress": "사무실 주소",
+    "verificationStatus": "인증 상태",
+    "pending": "인증 대기중",
+    "verified": "인증 완료",
+    "rejected": "인증 거부됨",
+    "updateInfo": "정보 수정",
+    "myProperties": "내 매물 관리",
+    "addProperty": "매물 등록하기",
+    "noProperties": "등록된 매물이 없습니다"
+  },
+  "favorites": {
+    "title": "찜한 매물",
+    "noFavorites": "찜한 매물이 없습니다",
+    "viewProperty": "매물 보기",
+    "removeFromFavorites": "찜 해제"
+  },
+  "admin": {
+    "title": "관리자 대시보드",
+    "pendingAgents": "대기중인 중개사",
+    "allAgents": "전체 중개사",
+    "allUsers": "전체 사용자",
+    "allProperties": "전체 매물",
+    "verify": "인증",
+    "reject": "거부",
+    "search": "검색",
+    "status": "상태",
+    "actions": "작업"
+  }
+}
