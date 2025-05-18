@@ -1,0 +1,108 @@
+{
+  "board": {
+    "title": "Community Board",
+    "description": "Connect with other users, share experiences, and ask questions about living in Korea."
+  },
+  "categories": {
+    "all": "All Categories",
+    "general": "General",
+    "questions": "Questions",
+    "reviews": "Reviews",
+    "tips": "Tips"
+  },
+  "posts": {
+    "title": "Posts",
+    "noPostsFound": "No posts found",
+    "createPost": "Create Post",
+    "latestPosts": "Latest Posts",
+    "popularPosts": "Popular Posts",
+    "views": "Views",
+    "comments": "Comments",
+    "by": "by",
+    "postedIn": "Posted in",
+    "on": "on",
+    "sortBy": "Sort by",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "mostComments": "Most Comments",
+    "mostViews": "Most Views"
+  },
+  "post": {
+    "createTitle": "Create a New Post",
+    "editTitle": "Edit Post",
+    "title": "Title",
+    "category": "Category",
+    "selectCategory": "Select a category",
+    "content": "Content",
+    "titlePlaceholder": "Enter a descriptive title",
+    "contentPlaceholder": "Share your thoughts, experiences, or questions...",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this post?",
+    "deleteSuccess": "Post deleted successfully",
+    "createSuccess": "Post created successfully",
+    "updateSuccess": "Post updated successfully",
+    "required": "This field is required",
+    "titleTooShort": "Title must be at least 5 characters",
+    "contentTooShort": "Content must be at least 10 characters",
+    "backToBoard": "Back to Board"
+  },
+  "comments": {
+    "title": "Comments",
+    "noComments": "No comments yet. Be the first to comment!",
+    "writeComment": "Write a comment",
+    "placeholder": "Share your thoughts...",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this comment?",
+    "deleteSuccess": "Comment deleted successfully",
+    "createSuccess": "Comment added successfully",
+    "updateSuccess": "Comment updated successfully",
+    "by": "by",
+    "on": "on",
+    "reply": "Reply",
+    "replies": "Replies",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "search": {
+    "placeholder": "Search posts...",
+    "searching": "Searching...",
+    "noResults": "No results found",
+    "results": "Results for",
+    "advancedSearch": "Advanced Search",
+    "searchIn": "Search in",
+    "titles": "Titles",
+    "content": "Content",
+    "titleAndContent": "Titles & Content",
+    "byUser": "By User",
+    "dateRange": "Date Range",
+    "from": "From",
+    "to": "To",
+    "search": "Search"
+  },
+  "myPosts": {
+    "title": "My Posts",
+    "noPosts": "You haven't created any posts yet.",
+    "createFirst": "Create your first post"
+  },
+  "errors": {
+    "loadingPosts": "Error loading posts",
+    "loadingPost": "Error loading post",
+    "createPost": "Error creating post",
+    "updatePost": "Error updating post",
+    "deletePost": "Error deleting post",
+    "createComment": "Error creating comment",
+    "updateComment": "Error updating comment",
+    "deleteComment": "Error deleting comment",
+    "loadingComments": "Error loading comments"
+  }
+}
