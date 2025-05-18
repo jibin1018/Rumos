@@ -1,0 +1,34 @@
+{
+  "title": "Find Your Perfect Home in Korea",
+  "subtitle": "The easiest way for foreigners to find accommodation in Korea without language barriers.",
+  "exploreProperties": "Explore Properties",
+  "getStarted": "Get Started",
+  "recentListings": "Recent Listings",
+  "findYourNewHome": "Find Your New Home",
+  "recentListingsDescription": "Check out these recently added properties available for rent.",
+  "viewAllProperties": "View All Properties",
+  "whyChooseUs": "Why Choose Rumos?",
+  "whyChooseUsDescription": "We make finding housing in Korea easy for foreigners with our user-friendly platform.",
+  "features": {
+    "easyToUse": {
+      "title": "Easy to Use",
+      "description": "Our platform is designed to be intuitive and accessible for users from any background."
+    },
+    "verifiedAgents": {
+      "title": "Verified Agents",
+      "description": "All real estate agents on our platform are verified to ensure a safe and reliable experience."
+    },
+    "multiLanguage": {
+      "title": "Multi-language Support",
+      "description": "Use our platform in your preferred language to make your housing search comfortable."
+    },
+    "community": {
+      "title": "Community Support",
+      "description": "Connect with others and get advice through our community forum."
+    }
+  },
+  "readyToStart": "Ready to find your new home in Korea?",
+  "readyToStartDescription": "Join thousands of expats who have found their perfect home using Rumos.",
+  "createAccount": "Create Account",
+  "login": "Login"
+}
