@@ -1,9 +1,3 @@
--- Create Database
-CREATE DATABASE rumos;
-
--- Connect to the database
-\c rumos
-
 -- Create user roles enum
 CREATE TYPE user_role AS ENUM ('user', 'agent', 'admin');
 

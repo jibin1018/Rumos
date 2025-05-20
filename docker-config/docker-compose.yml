@@ -1,0 +1,43 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: rumos_backend
+    env_file:
+      - ./backend/.env
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/usr/src/app
+      - /usr/src/app/node_modules  # node_modules 제외
+    working_dir: /usr/src/app
+    networks:
+      - rumos_net
+    restart: unless-stopped
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16-alpine
+    container_name: rumos_db
+    environment:
+      POSTGRES_DB: rumos
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1111
+      TZ: Asia/Seoul
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database-schema.sql:/docker-entrypoint-initdb.d/database-schema.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - rumos_net
+    restart: unless-stopped
+
+networks:
+  rumos_net:
+    driver: bridge
+
+volumes:
+  postgres_data:
