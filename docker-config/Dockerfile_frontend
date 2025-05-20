@@ -1,0 +1,17 @@
+ # docker-config/Dockerfile.frontend
+FROM node:22-slim
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+RUN npm install ajv@6 ajv-keywords@3 @tailwindcss/typography --legacy-peer-deps
+RUN npm install --legacy-peer-deps
+
+COPY . . 
+
+EXPOSE 3000
+
+ENV NODE_ENV=development
+ENV HOST=0.0.0.0
+
+CMD ["npm", "start"]
