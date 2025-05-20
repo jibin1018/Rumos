@@ -1,15 +1,15 @@
 services:
   backend:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: ../backend
+      dockerfile: ../docker-config/Dockerfile
     container_name: rumos_backend
     env_file:
-      - ./backend/.env
+      - .env
     ports:
       - "5000:5000"
     volumes:
-      - ./backend:/usr/src/app
+      - ../backend:/usr/src/app
       - /usr/src/app/node_modules  # node_modules 제외
     working_dir: /usr/src/app
     networks:
@@ -28,7 +28,7 @@ services:
       TZ: Asia/Seoul
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./database-schema.sql:/docker-entrypoint-initdb.d/database-schema.sql
+      - ../database-schema.sql:/docker-entrypoint-initdb.d/database-schema.sql
     ports:
       - "5432:5432"
     networks:
